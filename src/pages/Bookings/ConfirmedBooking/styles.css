@@ -1,0 +1,53 @@
+
+.booking-confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e2e2e2, #ffffff);
+  padding: 2rem;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+
+.booking-confirmation-header {
+  margin-bottom: 2rem;
+}
+
+
+.booking-confirmation-title {
+  font-size: 2.8rem;
+  color: #1e2a38;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.booking-confirmation-details {
+  text-align: center;
+  max-width: 600px;
+}
+
+
+.booking-confirmation-text {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin: 0.75rem 0;
+  line-height: 1.5;
+  font-family: "Georgia", serif;
+}
+
+.booking-confirmation-text:first-of-type {
+  font-weight: 500;
+}
+
+.booking-confirmation-text:last-of-type {
+  width: 100%;
+  max-width: 400px;
+  font-style: italic;
+  margin: 1rem auto;
+  color: #555;
+}
